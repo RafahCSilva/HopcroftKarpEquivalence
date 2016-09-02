@@ -1,0 +1,41 @@
+Resposta recebida como submeter
+
+FSM Dados (5-Tupla):
+{
+	"Q" : [ "A", "B", "C", "D", "E", "F", "G", "H" ],
+	"∑" : [ "a", "b" ],
+	"δ" : [ [ 1, 5 ], [ 6, 2 ], [ 0, 2 ], [ 2, 6 ], [ 7, 5 ], [ 2, 6 ], [ 6, 4 ], [ 6, 2 ] ],
+	"q0" : [ 0 ],
+	"F" : [ 2 ]
+}
+
+
+
+
+
+FSM Dados STDIN (5-Tupla):
+8
+A B C D E F G H 
+
+2
+a b 
+
+1 5 
+6 2 
+0 2 
+2 6 
+7 5 
+2 6 
+6 4 
+6 2 
+
+0
+
+1
+2 
+
+
+
+
+5tuplaDesigner:
+{"nodes":[{"x":88,"y":172,"text":"A","isAcceptState":false},{"x":268,"y":172,"text":"B","isAcceptState":false},{"x":438,"y":172,"text":"C","isAcceptState":true},{"x":616,"y":172,"text":"D","isAcceptState":false},{"x":88,"y":338,"text":"E","isAcceptState":false},{"x":268,"y":338,"text":"F","isAcceptState":false},{"x":438,"y":338,"text":"G","isAcceptState":false},{"x":627,"y":338,"text":"H","isAcceptState":false}],"links":[{"type":"Link","nodeA":0,"nodeB":1,"text":"a","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":0,"nodeB":5,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":1,"nodeB":2,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":1,"nodeB":6,"text":"a","lineAngleAdjust":0,"parallelPart":0.7072410372679608,"perpendicularPart":21.800914291947883},{"type":"SelfLink","node":2,"text":"b","anchorAngle":-1.5707963267948966},{"type":"Link","nodeA":2,"nodeB":0,"text":"a","lineAngleAdjust":0,"parallelPart":0.34334728448775004,"perpendicularPart":62.41517620670071},{"type":"Link","nodeA":3,"nodeB":2,"text":"a","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":3,"nodeB":6,"text":"b","lineAngleAdjust":3.141592653589793,"parallelPart":0.7522619851451722,"perpendicularPart":-24.782996065660562},{"type":"SelfLink","node":6,"text":"a","anchorAngle":1.5707963267948966},{"type":"Link","nodeA":4,"nodeB":7,"text":"a","lineAngleAdjust":0,"parallelPart":0.4123134328358209,"perpendicularPart":105},{"type":"Link","nodeA":4,"nodeB":5,"text":"b","lineAngleAdjust":3.141592653589793,"parallelPart":0.5313260340632603,"perpendicularPart":0},{"type":"Link","nodeA":5,"nodeB":6,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":5,"nodeB":2,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.5464786736573615,"perpendicularPart":-22.76049121445061},{"type":"Link","nodeA":6,"nodeB":4,"text":"b","lineAngleAdjust":3.141592653589793,"parallelPart":0.3457142857142857,"perpendicularPart":-39},{"type":"Link","nodeA":7,"nodeB":6,"text":"a","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":7,"nodeB":2,"text":"b","lineAngleAdjust":0,"parallelPart":0.27550294735843983,"perpendicularPart":34.95936382001705},{"type":"StartLink","node":0,"text":"","deltaX":-62,"deltaY":-19}]}

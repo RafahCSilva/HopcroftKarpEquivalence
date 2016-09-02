@@ -1,0 +1,38 @@
+Resposta recebida como submeter
+
+FSM Dados (5-Tupla):
+{
+	"Q" : [ "AE", "G", "DF", "C", "BH" ],
+	"∑" : [ "a", "b" ],
+	"δ" : [ [ 4, 2 ], [ 1, 0 ], [ 3, 1 ], [ 0, 3 ], [ 1, 3 ] ],
+	"q0" : [ 0 ],
+	"F" : [ 3 ]
+}
+
+
+
+
+
+FSM Dados STDIN (5-Tupla):
+5
+AE G DF C BH 
+
+2
+a b 
+
+4 2 
+1 0 
+3 1 
+0 3 
+1 3 
+
+0
+
+1
+3 
+
+
+
+
+5tuplaDesigner:
+{"nodes":[{"x":144,"y":289,"text":"AE","isAcceptState":false},{"x":272,"y":212,"text":"G","isAcceptState":false},{"x":449,"y":212,"text":"DF","isAcceptState":false},{"x":449,"y":377,"text":"C","isAcceptState":true},{"x":272,"y":377,"text":"BH","isAcceptState":false}],"links":[{"type":"Link","nodeA":0,"nodeB":4,"text":"a","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":0,"nodeB":2,"text":"b","lineAngleAdjust":3.141592653589793,"parallelPart":0.5135517513187945,"perpendicularPart":-112.89077509469715},{"type":"SelfLink","node":1,"text":"a","anchorAngle":0.6636892877233715},{"type":"Link","nodeA":1,"nodeB":0,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":2,"nodeB":3,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.4727272727272727,"perpendicularPart":0},{"type":"Link","nodeA":2,"nodeB":1,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":4,"nodeB":3,"text":"b","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":4,"nodeB":1,"text":"a","lineAngleAdjust":0,"parallelPart":0.5,"perpendicularPart":0},{"type":"Link","nodeA":3,"nodeB":0,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.4528641269255604,"perpendicularPart":-105.22184035926009},{"type":"SelfLink","node":3,"text":"b","anchorAngle":0.7551044034786732},{"type":"StartLink","node":0,"text":"","deltaX":-59,"deltaY":-8}]}

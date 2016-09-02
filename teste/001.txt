@@ -1,0 +1,46 @@
+Resposta recebida como submeter
+
+FSM Dados (5-Tupla):
+{
+  "Q" : [ "S_1", "S_2" ],
+  "Σ" : [ "a", "b" ],
+  "δ" : [ [ 2, 1 ], [ 1, 2 ] ], 
+  "q0" : [ 1 ], 
+  "F" : [ 1 ]
+}
+
+
+
+
+
+FSM Dados STDIN (5-Tupla):
+2
+S1 S2
+
+2
+a b
+
+1 0
+0 1
+
+0 
+
+1
+0 
+
+
+
+
+5tuplaDesigner:
+{
+	"nodes":[
+		{"x":156,"y":189,"text":"S_1","isAcceptState":true},
+		{"x":308,"y":189,"text":"S_2","isAcceptState":false}
+	],
+	"links":[
+		{"type":"Link","nodeA":0,"nodeB":1,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.4653439723959456,"perpendicularPart":-55.284752706511604},
+		{"type":"Link","nodeA":1,"nodeB":0,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.5020056070735388,"perpendicularPart":-45.597771209469},
+		{"type":"StartLink","node":0,"text":"inicio","deltaX":-49,"deltaY":-79},{"type":"SelfLink","node":1,"text":"b","anchorAngle":0},
+		{"type":"SelfLink","node":0,"text":"b","anchorAngle":3.141592653589793} 
+	]
+}

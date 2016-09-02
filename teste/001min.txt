@@ -1,0 +1,55 @@
+Resposta recebida como submeter
+
+FSM Dados (5-Tupla):
+{ 
+	"Q" : [ "S_1", "S_2", "S_3", "S_4" ], 
+	"∑" : [ "a", "b" ], 
+	"δ" : [ [ 1, 0 ], [ 3, 1 ], [ 0, 2 ], [ 2, 0 ] ], 
+	"q0" : [ 0 ], 
+	"F" : [ 0, 3 ] 
+}
+
+
+
+
+
+FSM Dados STDIN (5-Tupla):
+4
+S1 S2 S3 S4
+
+2
+a b
+
+1 0
+3 1
+0 2
+2 0
+
+0 
+
+2
+0 3
+
+
+
+
+5tuplaDesigner:
+{
+	"nodes":[
+		{"x":156,"y":189,"text":"S_1","isAcceptState":true},
+		{"x":320,"y":189,"text":"S_2","isAcceptState":false},
+		{"x":320,"y":328,"text":"S_3","isAcceptState":false},
+		{"x":156,"y":328,"text":"S_4","isAcceptState":true}
+	],
+	"links":[
+		{"type":"StartLink","node":0,"text":"inicio","deltaX":-74,"deltaY":0},
+		{"type":"SelfLink","node":0,"text":"b","anchorAngle":-1.5707963267948966},
+		{"type":"SelfLink","node":1,"text":"b","anchorAngle":-0.11487660541689913},
+		{"type":"Link","nodeA":0,"nodeB":1,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.4878048780487805,"perpendicularPart":-42},
+		{"type":"Link","nodeA":3,"nodeB":2,"text":"a","lineAngleAdjust":0,"parallelPart":0.5304878048780488,"perpendicularPart":25},
+		{"type":"SelfLink","node":2,"text":"b","anchorAngle":0},
+		{"type":"Link","nodeA":2,"nodeB":0,"text":"a","lineAngleAdjust":0,"parallelPart":0.40353116818486706,"perpendicularPart":23.476450186351208},
+		{"type":"Link","nodeA":1,"nodeB":3,"text":"a","lineAngleAdjust":3.141592653589793,"parallelPart":0.504576238180756,"perpendicularPart":-18.173665717866886},
+		{"type":"Link","nodeA":3,"nodeB":0,"text":"b","lineAngleAdjust":3.141592653589793,"parallelPart":0.4676258992805755,"perpendicularPart":-39}
+	]
+}
